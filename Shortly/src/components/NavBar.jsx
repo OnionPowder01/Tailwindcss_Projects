@@ -4,7 +4,7 @@ import logo from "../images/logo.svg";
 function NavBar() {
     return (
         // Nav Container
-        <nav class="relative container mx-auto p-6">
+        <nav className="relative container mx-auto p-6">
             {/* Flex Container for All Items  */}
             <div className="flex items-center justify-between">
                 {/* Flex Container For Logo/Menu */}
