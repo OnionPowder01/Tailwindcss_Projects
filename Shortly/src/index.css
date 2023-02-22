@@ -6,3 +6,7 @@
 .copy-button {
  @apply p-2 px-8 text-white rounded-lg hover:opacity-70 focus:outline-none
 }
+
+.input {
+@apply flex-1 p-3 border-2 rounded-lg placeholder-yellow-500 focus:outline-none
+}
