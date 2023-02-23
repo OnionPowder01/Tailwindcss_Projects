@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import validator from 'validator'
 
-function InputForm({ setInputValue, inputValue }) {
+function InputForm({ setInputValue }) {
     const [value, setValue] = useState('')
 
     const handleClick = () => {
@@ -34,8 +34,6 @@ function formSubmit(e) {
   }
 }
 
-    console.log(validate(value))
-    console.log(errMsg)
     return (
         <form
           action=""

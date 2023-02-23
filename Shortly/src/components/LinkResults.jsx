@@ -2,11 +2,14 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 
-function LinkResults({ inputValue }) {
 
+
+function LinkResults({ inputValue }) {
+/* eslint-disable no-unused-vars */
   const [shortenLink, setShortenLink] = useState("");
   const [copied, setCopied] = useState(false);
-  const [error, setError] = useState(false);
+  const [error, setError] = useState(false); 
+/* eslint-enable no-unused-vars */
 
 
   const fetchData = async () => {
@@ -23,7 +26,8 @@ function LinkResults({ inputValue }) {
     if(inputValue.length) {
         fetchData()
     }
-  }, [inputValue])
+    // eslint-disable-next-line
+  }, [inputValue]) 
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -45,7 +49,7 @@ function LinkResults({ inputValue }) {
         </p>
   
         <div className="flex flex-col items-center justify-end flex-1 space-x-4 space-y-2 md:flex-row md:space-y-0">
-          <div className="font-bold text-cyan">{shortenLink}</div>
+          <div className="font-bold text-cyan flex-wrap">{shortenLink}</div>
           <CopyToClipboard text={shortenLink} onCopy={() => setCopied(true)}>
             <button
               className={
