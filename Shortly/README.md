@@ -1,5 +1,7 @@
 # Shortly Website
 
+## [Live Demo](https://shortly-onionpowder01.netlify.app/)
+
 Shortly landing page from my Tailwind course and from [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
 
 
