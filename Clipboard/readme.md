@@ -1,5 +1,7 @@
 # Clipboard Website
 
+## [Live Demo](https://clipboard-onionpowder-01.netlify.app/)
+
 Clipboard landing page from my Tailwind course and from [Frontend Mentor Challenge](https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9)
 
 ## Usage
